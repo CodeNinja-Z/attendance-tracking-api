@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
       resources :attendance_logs, only: %i[index create update destroy]
 
-      root "attendance_logs#index"
+      root 'welcome#index'
     end
   end
 end
