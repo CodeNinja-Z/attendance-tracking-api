@@ -3,24 +3,24 @@
 password = '123123'
 
 User.create(
-  first_name: Faker::Name.first_name,
-  last_name: Faker::Name.last_name,
+  first_name: 'John',
+  last_name: 'Doe',
   email: 'test1@gmail.com',
   password: password,
   password_confirmation: password
 )
 
 User.create(
-  first_name: Faker::Name.first_name,
-  last_name: Faker::Name.last_name,
+  first_name: 'Marry',
+  last_name: 'Holland',
   email: 'test2@gmail.com',
   password: password,
   password_confirmation: password
 )
 
 User.create(
-  first_name: Faker::Name.first_name,
-  last_name: Faker::Name.last_name,
+  first_name: 'Henry',
+  last_name: 'Cook',
   email: 'test3@gmail.com',
   password: password,
   password_confirmation: password
