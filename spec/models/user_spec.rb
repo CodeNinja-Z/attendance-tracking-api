@@ -5,7 +5,7 @@ RSpec.describe User, type: :model do
   # == Relationships ========================================================
 
   context 'relationships' do
-    # it { should have_many(:attendance_logs) }
+    it { should have_many(:attendance_logs) }
   end
 
   # == Validations ==========================================================

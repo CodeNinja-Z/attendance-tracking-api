@@ -6,7 +6,7 @@ class User < ApplicationRecord
   
   # == Relationships ========================================================
 
-  # has_many :attendance_logs
+  has_many :attendance_logs
 
   # == Validations ==========================================================
 
