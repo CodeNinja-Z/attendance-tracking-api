@@ -106,4 +106,6 @@ ClockEvent belongs_to EventType
 
 * Make the user be able to search logs by date/month, do some filtering and sorting.
 
+* Write more error handlers on both the back-end and front-end.
+
 * Polish the UI to make it appealing to use.
